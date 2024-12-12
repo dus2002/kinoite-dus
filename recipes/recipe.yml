@@ -23,12 +23,10 @@ modules:
     install:
       - micro
       - starship
-    remove:
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      install:
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
