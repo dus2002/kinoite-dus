@@ -23,7 +23,6 @@ platforms:
   -  linux/ppc64
   -  linux/ppc64le
   -  linux/riscv64
-  -  linux/s390x
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
